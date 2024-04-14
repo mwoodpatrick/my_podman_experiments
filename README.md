@@ -1,5 +1,6 @@
-# my_podman_experiments
-Simple set of podman experiments
+# My Podman Experiments
+
+A simple set of podman experiments
 
 Images are stored in: 
 
@@ -8,6 +9,10 @@ Images are stored in:
 e.g:
 
     https://quay.io/repository/mwoodpatrick/myimage
+
+Before commit changes to github need to login:
+
+    gh auth login
 
 Before pushing images need to login to repository:
 
