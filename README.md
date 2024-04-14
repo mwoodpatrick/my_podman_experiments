@@ -13,6 +13,10 @@ e.g:
 Before commit changes to github need to login:
 
     gh auth login
+    git config credential.helper store
+    git config --global credential.helper "cache --timeout 7200"
+    git help credentials
+    man git-credential-store
 
 Before pushing images need to login to repository:
 
