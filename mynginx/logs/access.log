@@ -1,0 +1,2 @@
+127.0.0.1 - - [14/Apr/2024:15:04:41 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" "-"
+127.0.0.1 - - [14/Apr/2024:15:04:41 +0000] "GET /images/westie.jpg HTTP/1.1" 304 0 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" "-"
