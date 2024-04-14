@@ -42,9 +42,19 @@ Simple copy of nginx container based image docker.io/library/nginx with some ext
     apt-get install less
     podman container commit -q --author "Mark Wood-Patrick" nginx my-nginx
 
+Create volume:
+
+    podman volume create webdata
+    podman volume list
+    podman volume inspect webdata
+    nvim  ~/.local/share/containers/storage/volumes/webdata/_data/index.html
+
 Run my image:
 
-    podman run -d -v $PWD/config:/etc/nginx -v $PWD/html:/usr/share/nginx/html -v $PWD/logs:/var/log/nginx -v /mnt:/mnt -p 8080:80 --name my-nginx my-nginx
+    podman run -d -v $PWD/config:/etc/nginx -v $PWD/html:/usr/share/nginx/html -v webdata:/usr/share/nginx/html/webdata:ro,z -v $PWD/logs:/var/log/nginx -v /mnt:/mnt -p 8080:80 --name my-nginx my-nginx
+    podman exec -it my-nginx bash
+    podman stop my-nginx
+    podman container rm my-nginx
 
 config files in: /etc/nginx
 document root: /usr/share/nginx/html
