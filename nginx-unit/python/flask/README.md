@@ -13,12 +13,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, World!'  
 EOF
 
  cat << EOF > requirements.txt
 
-flask
+flask  
 EOF
 
  mkdir config
@@ -39,7 +39,7 @@ EOF
              "callable": "app"
         }
     }
-}
+}  
 EOF
 
  mkdir log
@@ -69,7 +69,7 @@ export UNIT=$(                                                         \
       --mount type=bind,src="$(pwd)/state",dst=/var/lib/unit             \
       --mount type=bind,src="$(pwd)/.",dst=/www                     \
       --name nginx-unit-flask -p 8081:8000 unit-flask                                           \
-  )
+  )  
 EOF
 
 chmod +x run.sh
