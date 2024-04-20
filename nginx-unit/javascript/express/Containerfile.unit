@@ -1,0 +1,11 @@
+# Keep our base image as specific as possible.
+FROM unit:1.32.1-node20
+
+# Same as "working_directory" in config.json.
+COPY app.js /www/
+
+# Install and link Express in the app directory.
+RUN cd /www && npm install express && npm link unit-http
+
+# Port used by the listener in config.json.
+EXPOSE 8080
