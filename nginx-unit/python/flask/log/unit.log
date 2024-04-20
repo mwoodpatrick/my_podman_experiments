@@ -1,0 +1,35 @@
+2024/04/20 12:53:37 [info] 7#7 discovery started
+2024/04/20 12:53:37 [notice] 7#7 module: python 3.12.3 "/usr/lib/unit/modules/python3.unit.so"
+2024/04/20 12:53:37 [info] 5#5 controller started
+2024/04/20 12:53:37 [info] 10#10 router started
+2024/04/20 12:53:37 [notice] 5#5 process 7 exited with code 0
+2024/04/20 12:53:37 [info] 10#10 OpenSSL 1.1.1w  11 Sep 2023, 1010117f
+2024/04/20 12:53:37 [info] 17#17 "webapp" prototype started
+2024/04/20 12:53:37 [info] 18#18 "webapp" application started
+2024/04/20 12:53:38 [alert] 5#5 sendmsg(10, -1, -1, 1) failed (104: Connection reset by peer)
+2024/04/20 12:53:38 [notice] 5#5 process 9 exited with code 0
+2024/04/20 12:53:38 [notice] 5#5 process 10 exited with code 0
+2024/04/20 12:53:38 [notice] 17#17 app process 18 exited with code 0
+2024/04/20 12:53:38 [alert] 17#17 sendmsg(13, -1, -1, 2) failed (32: Broken pipe)
+2024/04/20 12:53:38 [notice] 5#5 process 17 exited with code 0
+2024/04/20 12:53:39 [info] 42#42 discovery started
+2024/04/20 12:53:39 [notice] 42#42 module: python 3.12.3 "/usr/lib/unit/modules/python3.unit.so"
+2024/04/20 12:53:39 [info] 1#1 controller started
+2024/04/20 12:53:39 [notice] 1#1 process 42 exited with code 0
+2024/04/20 12:53:39 [info] 44#44 router started
+2024/04/20 12:53:39 [info] 44#44 OpenSSL 1.1.1w  11 Sep 2023, 1010117f
+2024/04/20 12:53:39 [info] 45#45 "webapp" prototype started
+2024/04/20 12:53:39 [info] 46#46 "webapp" application started
+2024/04/20 12:55:15 [notice] 1#1 process 43 exited with code 0
+2024/04/20 12:55:15 [notice] 1#1 process 44 exited with code 0
+2024/04/20 12:55:15 [notice] 45#45 app process 46 exited with code 0
+2024/04/20 12:55:15 [alert] 45#45 sendmsg(13, -1, -1, 2) failed (32: Broken pipe)
+2024/04/20 12:55:15 [notice] 1#1 process 45 exited with code 0
+2024/04/20 12:56:18 [info] 4#4 discovery started
+2024/04/20 12:56:18 [notice] 4#4 module: python 3.12.3 "/usr/lib/unit/modules/python3.unit.so"
+2024/04/20 12:56:18 [info] 1#1 controller started
+2024/04/20 12:56:18 [notice] 1#1 process 4 exited with code 0
+2024/04/20 12:56:18 [info] 6#6 router started
+2024/04/20 12:56:18 [info] 6#6 OpenSSL 1.1.1w  11 Sep 2023, 1010117f
+2024/04/20 12:56:18 [info] 7#7 "webapp" prototype started
+2024/04/20 12:56:18 [info] 8#8 "webapp" application started

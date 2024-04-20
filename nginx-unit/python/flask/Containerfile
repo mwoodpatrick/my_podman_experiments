@@ -1,0 +1,4 @@
+# FROM unit:1.32.1-python3.11
+FROM unit:python3.12
+COPY requirements.txt /config/requirements.txt
+RUN python3 -m pip install -r /config/requirements.txt
